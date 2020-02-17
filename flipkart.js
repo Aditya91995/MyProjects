@@ -118,7 +118,7 @@ function all1() {
   let getArr = JSON.parse(localStorage.getItem("data"))
   getArr.forEach((ele, i) => {
     $("#all2").append(`
-    <div class="ml-4 col-3 p-3">
+    <div class="ml-4 col-3p-3">
       <div id="cartid${i}">
         <div class="card mt-2" style="width: 18rem;">
           <img src="https://icdn3.digitaltrends.com/image/digitaltrends/p90262036-highres-500x300-c.jpg"]}" class="card-img-top img-fluid" alt="icon image">
